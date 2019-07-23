@@ -1,0 +1,50 @@
+body {
+    background-image: url("../images/floor-tile.png");
+}
+
+#game-title {
+    height: 100px;
+}
+
+#game-instructions {
+    background-color: white;
+    padding: 15px;
+}
+
+#scoreboard {
+    background-color: aqua;
+    padding: 15px;
+}
+
+#crystal0 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    float: left;
+}
+
+#crystal1 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+    float: left;
+}
+
+#crystal2 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    float: left;
+}
+
+#crystal3 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    float: left;
+}
+
+#total-score {
+    background-color: brown;
+    padding: 15px;
+}
