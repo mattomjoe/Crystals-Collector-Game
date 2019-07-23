@@ -12,7 +12,7 @@ body {
 }
 
 #scoreboard {
-    background-color: aqua;
+    background-color: lightgray;
     padding: 15px;
 }
 
@@ -45,6 +45,7 @@ body {
 }
 
 #total-score {
-    background-color: brown;
+    background-color: gray;
     padding: 15px;
+    height: 100px;
 }
