@@ -32,31 +32,57 @@ document.addEventListener('DOMContentLoaded', function() {
     var wins = 0;
     var losses = 0;
 
+    var randomNumber = function(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
 
     var gameStart = function() {
-        
+
+        var scoreTally = 0;
+
+        targetScore = randomNumber(19, 120);
+
+        crystal.red.value = randomNumber(1, 12);
+        crystal.green.value = randomNumber(1, 12);
+        crystal.blue.value = randomNumber(1, 12);
+        crystal.purple.value = randomNumber(1, 12);
+
+        $("#tally").html("<h2>" + scoreTally + "</h2>");
+        $("#target-score").html("<h2>" + targetScore + "</h2>");
+
+        console.log("---------------------------------------")
+        console.log("Target Score: " + targetScore);
+        console.log("Red: " + crystal.red.value + " | Green: " + crystal.green.value + " | Blue: " + crystal.blue.value + " | Purple: " + crystal.purple.value);
+        console.log("---------------------------------------")
+
+    }
+
+    var addValues = function(crystal) {
+        scoreTally = scoreTally + crystal.value;
+
+        console.log("Your Score: " + scoreTally);
     }
 
 
 
 
-
     $("#crystal0").click(function() {
-        alert("test0");
+        addValues(crystal.red);
     })
 
     $("#crystal1").click(function() {
-        alert("test1");
+        addValues(crystal.green);
     })
 
     $("#crystal2").click(function() {
-        alert("test2");
+        addValues(crystal.blue);
     })
 
     $("#crystal3").click(function() {
-        alert("test3");
+        addValues(crystal.purple);
     })
 
+    gameStart();
 
 
 
