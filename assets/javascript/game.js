@@ -1,4 +1,10 @@
-console.log("test");
+// Script based on YouTube video https://www.youtube.com/watch?v=ki36iUBbCDY&list=PLE2kqXhbJ00hLE8XAe4c204Cr4RJtHGv-&index=14&t=93s
+
+var crystalRed = 0;
+var crystalGreen = 0;
+var crystalBlue = 0;
+var crystalPurple = 0;
+
 
 
 

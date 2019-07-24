@@ -4,6 +4,8 @@ body {
 
 #game-title {
     height: 100px;
+    background-color: black;
+    color: white;
 }
 
 #game-instructions {
@@ -21,6 +23,8 @@ body {
     border-width: 3px;
     border-color: red;
     float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #crystal1 {
@@ -28,6 +32,8 @@ body {
     border-width: 3px;
     border-color: green;
     float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #crystal2 {
@@ -35,6 +41,8 @@ body {
     border-width: 3px;
     border-color: blue;
     float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #crystal3 {
@@ -42,6 +50,8 @@ body {
     border-width: 3px;
     border-color: blueviolet;
     float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #total-score {
