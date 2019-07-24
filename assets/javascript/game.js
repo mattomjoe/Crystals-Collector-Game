@@ -60,10 +60,25 @@ document.addEventListener('DOMContentLoaded', function() {
     var addValues = function(crystal) {
         scoreTally = scoreTally + crystal.value;
 
+        $("#tally").html("<h2>" + scoreTally + "</h2>");
+
+        checkWin();
+
         console.log("Your Score: " + scoreTally);
     }
 
-
+    var checkWin = function() {
+        if(scoreTally > targetScore) {
+            $("#tally").html("<h2>TRY AGAIN LOSER!</h2>");
+            losses++;
+            $("#losses").html(losses);
+        }
+        else if (scoreTally === targetScore) {
+            $("tally").html("<h2>YOU WON!</h2>");
+            wins++;
+            $("#wins").html(wins);
+        }
+    }
 
 
     $("#crystal0").click(function() {
