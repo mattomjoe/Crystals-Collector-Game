@@ -1,39 +1,30 @@
-# Crystal Collector Game
+# Crystals Collector Game
 
-Project Description
-FoodMood is a restaurant finder app that allows the user to input their location as well as a specific type of cuisine they are in the mood for. Once it has this information, it will show them results in their area. The application will utilize two APIs, which will retrieve information both about the restaurants and about the routes to the restaurants. This information will ultimately help the user decide on which restaurant to go to for the specific type of cuisine they are in the mood for.
+#### Project Description
 
-Key Features
-Restaurants near you
+Crystals Collector is a game that randomly generates a score to match as well as values to each of the four individual crystals (not visible to the user). User then clicks on crystals and works to determine their values so that the score to match can be reached.
 
-Details of the restaurants
 
-Locations of the restaurants
+#### Key Features
 
-Routes to the restaurants from user
+* Score to match
 
-Technologies Used
-HTML
+* Your current score
 
-CSS
+* Wins and losses
 
-JavaScript
 
-jQuery
+#### Technologies Used
 
-AJAX
+* HTML
 
-New Technologies Used
-MapQuest.js
+* CSS
 
-Leaflet.js
+* JavaScript
 
-APIs Used
-Zomato
+* jQuery
 
-MapQuest
 
-Outstanding Issues
-some code leftover in style.css may no longer have any real purpose
+#### Outstanding Issues
 
-because of the size of the food images for the carousel, they don't scale vertically very well on iPads and other very long viewports and little has been done to offset this issue beyond making the footer seem to grow upward to fill the empty space
+* Game doesn't seem to to reset at the end and start over. Clicking crystals after a win/loss just results in adding a loss over and over.
