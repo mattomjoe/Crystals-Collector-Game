@@ -9,6 +9,8 @@ Crystals Collector is a game that randomly generates a score to match as well as
 
 https://mattomjoe.github.io/Crystals-Collector-Game/
 
+![alt text](screenshots/2020-03-08.png)
+
 
 #### Key Features
 
