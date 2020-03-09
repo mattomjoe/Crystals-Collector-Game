@@ -1,5 +1,6 @@
 body {
-    background-image: url("../images/floor-tile.png");
+    /* background-image: url("../images/floor-tile.png"); */
+    background-color: #80d4ff;
 }
 
 h1 {
@@ -16,11 +17,19 @@ h1 {
 #game-instructions {
     background-color: white;
     padding: 15px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #scoreboard {
     background-color: lightgray;
     padding: 15px;
+    border-radius: 0px 0px 0px 20px;
+}
+
+#four-crystals {
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 0px 0px 20px 0px;
 }
 
 #crystal0 {
