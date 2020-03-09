@@ -2,6 +2,11 @@ body {
     background-image: url("../images/floor-tile.png");
 }
 
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+
 #game-title {
     height: 100px;
     background-color: black;
