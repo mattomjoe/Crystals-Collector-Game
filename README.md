@@ -5,6 +5,11 @@
 Crystals Collector is a game that randomly generates a score to match as well as values to each of the four individual crystals (not visible to the user). User then clicks on crystals and works to determine their values so that the score to match can be reached.
 
 
+#### Deployed Site
+
+https://mattomjoe.github.io/Crystals-Collector-Game/
+
+
 #### Key Features
 
 * Score to match
